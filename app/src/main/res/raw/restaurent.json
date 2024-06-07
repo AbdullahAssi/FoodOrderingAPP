@@ -61,14 +61,9 @@
         "url": "https://em-cdn.eatmubarak.pk/restaurant_new///dish/16044237781581702297.png"
       },
       {
-        "name": "Fettuccine Alfredo Pasta",
+        "name": "Fettuccine Alfredo ",
         "price": 950.0,
         "url": "https://em-cdn.eatmubarak.pk/54946/dish_image/1629619743.jpg"
-      },
-      {
-        "name": "Crunchy Chicken Pasta",
-        "price": 850.0,
-        "url": "https://em-cdn.eatmubarak.pk/54946/dish_image/1621634810.jpg"
       }
     ]
   },
@@ -94,12 +89,12 @@
         "url": "https://rancherscafe.com/wp-content/uploads/2024/04/Ranchooni-800x800.png"
       },
       {
-        "name": "CHEE HAWW BEEF",
+        "name": "CHEE HAWW",
         "price": 799.0,
         "url": "https://rancherscafe.com/wp-content/uploads/2022/01/Cheehaww-beef-800x800.png"
       },
       {
-        "name": "MIHGHTY RODEO BEEF",
+        "name": "MIHGHTY RODEO ",
         "price": 799.0,
         "url": "https://rancherscafe.com/wp-content/uploads/2022/01/Rodeo-Beef-1-1-800x800.webp"
       },
@@ -119,7 +114,7 @@
         "url": "https://rancherscafe.com/wp-content/uploads/2022/01/Beef-Steak-1-800x800.png"
       },
       {
-        "name": "BRONCO CHICKEN BURGER",
+        "name": "BRONCO BURGER",
         "price": 499.0,
         "url": "https://rancherscafe.com/wp-content/uploads/2022/01/bronco-800x800.png"
       },
@@ -134,12 +129,12 @@
         "url": "https://rancherscafe.com/wp-content/uploads/2022/01/Cowboy-burger-2-800x800.png"
       },
       {
-        "name": "MIGHTY RODEO CHICKEN",
+        "name": "MIGHTY RODEO ",
         "price": 799.0,
         "url": "https://rancherscafe.com/wp-content/uploads/2022/01/Mighty-Rodeo-Chicken-1-1-800x800.webp"
       },
       {
-        "name": "CRONCO CHICKEN BURGER",
+        "name": "CRONCO BURGER",
         "price":499.0,
         "url": "https://rancherscafe.com/wp-content/uploads/2022/01/cronco-800x800.png"
       }
@@ -213,7 +208,7 @@
         "url": "https://d2sz1kgdtrlf1n.cloudfront.net/task_images/jgRZ1697203303320-800x800whiteBG41.jpg"
       },
       {
-        "name": "Single Pulao without Kabab",
+        "name": " Pulao & Kebab",
         "price": 400.0,
         "url": "https://d2sz1kgdtrlf1n.cloudfront.net/task_images/GvkI1697203342230-800x80018.jpg"
       },
@@ -228,7 +223,7 @@
         "url": "https://d2sz1kgdtrlf1n.cloudfront.net/task_images/iFLu1697203682449-800x800whiteBG6.jpg"
       },
       {
-        "name": "Krispo Burger & Fries ",
+        "name": "Krispo Burger Fries",
         "price": 615.0,
         "url": "https://d2sz1kgdtrlf1n.cloudfront.net/task_images/x6Fp1697203676866-800x800whiteBG39.jpg"
       },

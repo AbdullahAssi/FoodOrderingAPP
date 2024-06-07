@@ -42,6 +42,17 @@ public class DBHelper extends SQLiteOpenHelper {
             return false;
     }
 
+    public Boolean insertOrder(String username, String order){
+        SQLiteDatabase MyDB = this.getWritableDatabase();
+        ContentValues contentValues= new ContentValues();
+        contentValues.put("username", username);
+        contentValues.put("order", order);
+        long result = MyDB.insert("orders", null, contentValues);
+        if(result==-1) return false;
+        else
+            return true;
+    }
+
     public Boolean checkusernamepassword(String username, String password){
         SQLiteDatabase MyDB = this.getWritableDatabase();
         Cursor cursor = MyDB.rawQuery("Select * from users where username = ? and password = ?", new String[] {username,password});

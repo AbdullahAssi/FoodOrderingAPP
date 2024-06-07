@@ -95,6 +95,8 @@ public class RestaurantMenuActivity extends AppCompatActivity implements MenuLis
                 totalItemInCart = totalItemInCart + m.getTotalInCart();
             }
             buttonCheckout.setText("Checkout (" +totalItemInCart +") items");
+            //setting text color to red
+            buttonCheckout.setTextColor(getResources().getColor(R.color.white));
         }
     }
 

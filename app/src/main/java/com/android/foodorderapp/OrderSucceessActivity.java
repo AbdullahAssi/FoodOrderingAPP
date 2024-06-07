@@ -21,8 +21,7 @@ public class OrderSucceessActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(restaurantModel.getName());
         actionBar.setSubtitle(restaurantModel.getAddress());
-        actionBar.setDisplayHomeAsUpEnabled(false);
-
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
 
         TextView buttonDone = findViewById(R.id.buttonDone);

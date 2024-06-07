@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/button_bg"
     android:padding="25dp"
     tools:context=".LoginActivity">
 
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Login"
+        android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +26,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:textColorHint="@color/white"
+        android:shadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +38,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/username1"
             android:layout_width="match_parent"
+            android:textColorHint="@color/white"
+            android:shadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/white"
+            android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:hint="User Name" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -44,6 +54,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"
+        android:shadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:textColor="@color/white"
         app:passwordToggleEnabled="true"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -51,6 +65,10 @@
             android:id="@+id/password1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:shadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/white"
+            android:textColor="@color/white"
             android:hint="Password"
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -60,6 +78,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Login in"
+        android:textColor="@color/white"
         android:backgroundTint="@color/teal_700"
         app:layout_constraintTop_toBottomOf="@+id/passwordLayout"
         app:layout_constraintStart_toStartOf="parent"

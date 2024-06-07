@@ -22,9 +22,11 @@
                 {
                     "source": "D:\\FoodApp-main\\FoodApp-main\\FoodOrderApp\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "8,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "4,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "327,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "41,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "364,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "390,391,480,481,482,493,494,497",
@@ -162,11 +164,9 @@
                 {
                     "source": "D:\\FoodApp-main\\FoodApp-main\\FoodOrderApp\\app\\src\\debug\\res\\values\\ic_launcher_background.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "449",

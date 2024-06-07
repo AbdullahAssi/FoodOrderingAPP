@@ -144,6 +144,17 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
             Toast.makeText(this, "Please enter card pin/cvv", Toast.LENGTH_SHORT).show();
             return;
         }
+
+
+        String name = inputName.getText().toString();
+        String address = inputAddress.getText().toString();
+        String cardNumber = inputCardNumber.getText().toString();
+        String cardExpiry = inputCardExpiry.getText().toString();
+        String cardPin = inputCardPin.getText().toString();
+        float orderTotal = Float.parseFloat(tvTotalAmount.getText().toString().substring(4)); // Remove "Pkr " from start
+        String deliveryMethod = isDeliveryOn ? "Delivery" : "Pickup";
+
+
         // Start success activity..
         Intent i = new Intent(PlaceYourOrderActivity.this, OrderSucceessActivity.class);
         i.putExtra("RestaurantModel", restaurantModel);
