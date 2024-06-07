@@ -1550,7 +1550,9 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_add_circle
+drawable ic_baseline_check_circle_24
 drawable ic_baseline_person_24
+drawable ic_baseline_sentiment_satisfied_alt_24
 drawable ic_fsplash
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1592,9 +1594,13 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id Addresslayout
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id CVVLayout
+id CardnumberLayout
+id ExpiryDateLayout
 id FUNCTION
 id META
 id NO_DEBUG
@@ -1682,6 +1688,8 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnDelivery
+id btnPickup
 id btnsignin
 id btnsignin1
 id btnsignup
@@ -1750,6 +1758,7 @@ id easeOut
 id edit_query
 id email
 id emailLayout
+id emojiImageView
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1788,14 +1797,11 @@ id image
 id imageAddOne
 id imageMinus
 id info
-id inputAddress
+id inputAddressxml
 id inputCardExpiry
 id inputCardNumber
 id inputCardPin
-id inputCity
 id inputName
-id inputState
-id inputZip
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1857,6 +1863,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id orderSuccessText
 id outline
 id packed
 id parallax
@@ -1946,7 +1953,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id switchDelivery
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1975,6 +1981,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id thanksText
 id thumbImage
 id time
 id title
@@ -1992,13 +1999,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvCardDetails
 id tvCount
 id tvCustomerDetails
-id tvDelivery
 id tvDeliveryCharge
 id tvDeliveryChargeAmount
-id tvPickup
 id tvSubtotal
 id tvSubtotalAmount
 id tvTotal
