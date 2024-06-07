@@ -21,6 +21,34 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FoodOrderApp" >
+        <activity
+            android:name="com.android.foodorderapp.AccountActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.android.foodorderapp.DBHelper"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.android.foodorderapp.RegisterActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.android.foodorderapp.LoginActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity android:name="com.android.foodorderapp.OrderSucceessActivity" />
         <activity android:name="com.android.foodorderapp.PlaceYourOrderActivity" />
         <activity android:name="com.android.foodorderapp.RestaurantMenuActivity" />

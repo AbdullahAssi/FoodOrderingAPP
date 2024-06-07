@@ -1,11 +1,11 @@
 package com.android.foodorderapp;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import androidx.annotation.Nullable;
-
+import android.util.Log;
 public class DBHelper extends SQLiteOpenHelper {
     public static final String DBNAME = "Login.db";
     public DBHelper(Context context) {

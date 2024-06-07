@@ -2,6 +2,7 @@
 <resources>
     <color name="purple_200">#FFccefff</color>
     <color name="purple_500">#FF66ccff</color>
+    <color name="blue">#FF018786</color>
     <color name="purple_700">#FF66ccff</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>

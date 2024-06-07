@@ -927,6 +927,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -988,6 +989,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1548,6 +1550,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_add_circle
+drawable ic_baseline_person_24
 drawable ic_fsplash
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1602,6 +1605,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id User
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1636,6 +1640,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action_account
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1677,6 +1682,9 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnsignin
+id btnsignin1
+id btnsignup
 id buttonCheckout
 id buttonDone
 id buttonPanel
@@ -1740,6 +1748,8 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id email
+id emailLayout
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1800,6 +1810,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logoutButton
 id masked
 id menuName
 id menuPrice
@@ -1853,6 +1864,9 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
+id password1
+id passwordLayout
 id password_toggle
 id path
 id pathRelative
@@ -1867,6 +1881,9 @@ id radio
 id ratio
 id rectangles
 id recyclerView
+id registerText
+id repassword
+id repasswordLayout
 id restaurantAddress
 id restaurantHours
 id restaurantName
@@ -1949,6 +1966,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1991,8 +2009,12 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
+id username1
+id usernameLayout
 id view_offset_helper
 id visible
+id welcomeTextView
 id withText
 id withinBounds
 id wrap
@@ -2058,9 +2080,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account
+layout activity_login
 layout activity_main
 layout activity_order_succeess
 layout activity_place_your_order
+layout activity_register
 layout activity_restaurant_menu
 layout activity_splash
 layout custom_dialog
@@ -2134,7 +2159,9 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu main_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw restaurent
