@@ -1533,6 +1533,7 @@ int drawable abc_textfield_search_material 0x7f07005b
 int drawable abc_vector_test 0x7f07005c
 int drawable avd_hide_password 0x7f07005d
 int drawable avd_show_password 0x7f07005e
+int drawable boy 0x7f07009d
 int drawable btn_checkbox_checked_mtrl 0x7f07005f
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f070060
 int drawable btn_checkbox_unchecked_mtrl 0x7f070061
@@ -1591,6 +1592,7 @@ int drawable notification_template_icon_bg 0x7f070090
 int drawable notification_template_icon_low_bg 0x7f070091
 int drawable notification_tile_bg 0x7f070092
 int drawable notify_panel_notification_icon_bg 0x7f070093
+int drawable splash 0x7f07009c
 int drawable test_custom_background 0x7f070094
 int drawable tooltip_frame_dark 0x7f070095
 int drawable tooltip_frame_light 0x7f070096
@@ -1612,7 +1614,6 @@ int id SHOW_PROGRESS 0x7f08000a
 int id SYM 0x7f08000b
 int id TOP_END 0x7f08000c
 int id TOP_START 0x7f08000d
-int id User 0x7f0801a9
 int id accelerate 0x7f08000e
 int id accessibility_action_clickable_span 0x7f08000f
 int id accessibility_custom_action_0 0x7f080010
@@ -1694,6 +1695,7 @@ int id btnPickup 0x7f0801b5
 int id btnsignin 0x7f08019a
 int id btnsignin1 0x7f08019b
 int id btnsignup 0x7f08019c
+int id btnsignupText 0x7f0801b9
 int id buttonCheckout 0x7f080059
 int id buttonDone 0x7f08005a
 int id buttonPanel 0x7f08005b
@@ -1883,6 +1885,8 @@ int id percent 0x7f08010d
 int id pin 0x7f08010e
 int id position 0x7f08010f
 int id postLayout 0x7f080110
+int id profile_dates 0x7f0801ba
+int id profile_image 0x7f0801bb
 int id progress_circular 0x7f080111
 int id progress_horizontal 0x7f080112
 int id radio 0x7f080113

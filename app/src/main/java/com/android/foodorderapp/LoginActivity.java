@@ -6,10 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     EditText username, password;
+    TextView register;
     Button btnlogin;
     DBHelper DB;
     SharedPreferencesHelper sharedPreferencesHelper;
@@ -23,6 +25,8 @@ public class LoginActivity extends AppCompatActivity {
         password = findViewById(R.id.password1);
         btnlogin = findViewById(R.id.btnsignin1);
         DB = new DBHelper(this);
+
+        register = findViewById(R.id.btnsignupText);
 
         sharedPreferencesHelper = new SharedPreferencesHelper(this);
 
@@ -51,6 +55,14 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
                     }
                 }
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),RegisterActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -93,7 +93,7 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
     private void setDeliveryOption(boolean delivery) {
         isDeliveryOn = delivery;
         if (delivery) {
-            btnDelivery.setBackgroundColor(getResources().getColor(R.color.black));
+            btnDelivery.setBackgroundColor(getResources().getColor(R.color.blue));
             btnPickup.setBackgroundColor(getResources().getColor(android.R.color.darker_gray));
             Addresslayout.setVisibility(View.VISIBLE);
             tvDeliveryChargeAmount.setVisibility(View.VISIBLE);

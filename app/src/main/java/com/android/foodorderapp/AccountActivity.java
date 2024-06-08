@@ -20,14 +20,11 @@ public class AccountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_account);
 
         logoutButton = findViewById(R.id.logoutButton);
-        usernameTextView = findViewById(R.id.User);  // Make sure the ID matches your layout
         welcomeTextView = findViewById(R.id.welcomeTextView);
 
         sharedPreferencesHelper = new SharedPreferencesHelper(this);
         String username = sharedPreferencesHelper.getUsername();
 
-        // Set the username in the TextView
-        usernameTextView.setText(username);
         welcomeTextView.setText("Welcome, " + username + "!");
 
         logoutButton.setOnClickListener(new View.OnClickListener() {
