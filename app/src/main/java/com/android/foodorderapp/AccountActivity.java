@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class AccountActivity extends AppCompatActivity {
 
     Button logoutButton;
-    TextView usernameTextView, welcomeTextView;
+    TextView  welcomeTextView;
 
     SharedPreferencesHelper sharedPreferencesHelper;
 
