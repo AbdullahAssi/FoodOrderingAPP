@@ -1,13 +1,13 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.android.foodorderapp"
+3    package="com.android.WhiskerBites"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
 8-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
+9        android:targetSdkVersion="34" />
 9-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +15,7 @@
 11-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:7:5-53:19
+13-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:7:5-62:19
 14        android:allowBackup="true"
 14-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -30,87 +30,101 @@
 20-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:11:9-54
 21        android:supportsRtl="true"
 21-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:12:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.FoodOrderApp" >
-23-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:13:9-50
-24        <activity
-24-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:14:9-20:20
-25            android:name="com.android.foodorderapp.AccountActivity"
-25-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:15:13-44
-26            android:exported="false" >
-26-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:16:13-37
-27            <meta-data
-27-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
-28                android:name="android.app.lib_name"
-28-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
-29                android:value="" />
-29-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
-30        </activity>
-31        <activity
-31-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:21:9-27:20
-32            android:name="com.android.foodorderapp.DBHelper"
-32-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:22:13-37
-33            android:exported="false" >
-33-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:23:13-37
-34            <meta-data
-34-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
-35                android:name="android.app.lib_name"
-35-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
-36                android:value="" />
-36-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
-37        </activity>
-38        <activity
-38-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:28:9-34:20
-39            android:name="com.android.foodorderapp.RegisterActivity"
-39-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:29:13-45
-40            android:exported="false" >
-40-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:30:13-37
-41            <meta-data
-41-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
-42                android:name="android.app.lib_name"
-42-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
-43                android:value="" />
-43-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
-44        </activity>
-45        <activity
-45-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:35:9-41:20
-46            android:name="com.android.foodorderapp.LoginActivity"
-46-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:36:13-42
-47            android:exported="false" >
-47-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:37:13-37
-48            <meta-data
-48-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
-49                android:name="android.app.lib_name"
-49-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
-50                android:value="" />
-50-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
-51        </activity>
-52        <activity android:name="com.android.foodorderapp.OrderSucceessActivity" />
-52-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:42:9-59
-52-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:42:19-56
-53        <activity android:name="com.android.foodorderapp.PlaceYourOrderActivity" />
-53-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:43:9-60
-53-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:43:19-57
-54        <activity android:name="com.android.foodorderapp.RestaurantMenuActivity" />
-54-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:44:9-60
-54-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:44:19-57
-55        <activity android:name="com.android.foodorderapp.SplashActivity" >
-55-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:45:9-51:20
-55-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:45:19-49
-56            <intent-filter>
-56-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:46:13-50:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:47:17-69
-57-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:47:25-66
-58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:49:17-77
-59-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:49:27-74
-60            </intent-filter>
-61        </activity>
-62        <activity android:name="com.android.foodorderapp.MainActivity" />
-62-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:52:9-50
-62-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:52:19-47
-63    </application>
-64
-65</manifest>
+22        android:theme="@style/Theme.FoodOrderApp" >
+22-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:13:9-50
+23        <activity
+23-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:14:9-20:20
+24            android:name="com.android.foodorderapp.AccountActivity"
+24-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:15:13-44
+25            android:exported="true" >
+25-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:16:13-36
+26            <meta-data
+26-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
+27                android:name="android.app.lib_name"
+27-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
+28                android:value="" />
+28-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
+29        </activity>
+30        <activity
+30-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:21:9-27:20
+31            android:name="com.android.foodorderapp.DBHelper"
+31-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:22:13-37
+32            android:exported="false" >
+32-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:23:13-37
+33            <meta-data
+33-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
+34                android:name="android.app.lib_name"
+34-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
+35                android:value="" />
+35-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
+36        </activity>
+37        <activity
+37-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:28:9-34:20
+38            android:name="com.android.foodorderapp.RegisterActivity"
+38-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:29:13-45
+39            android:exported="false" >
+39-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:30:13-37
+40            <meta-data
+40-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
+41                android:name="android.app.lib_name"
+41-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
+42                android:value="" />
+42-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
+43        </activity>
+44        <activity
+44-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:35:9-41:20
+45            android:name="com.android.foodorderapp.LoginActivity"
+45-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:36:13-42
+46            android:exported="false" >
+46-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:37:13-37
+47            <meta-data
+47-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:17:13-19:36
+48                android:name="android.app.lib_name"
+48-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:18:17-52
+49                android:value="" />
+49-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:19:17-33
+50        </activity>
+51        <activity
+51-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:42:9-44:40
+52            android:name="com.android.foodorderapp.OrderSucceessActivity"
+52-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:43:13-50
+53            android:exported="false" />
+53-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:44:13-37
+54        <activity
+54-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:45:9-47:40
+55            android:name="com.android.foodorderapp.PlaceYourOrderActivity"
+55-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:46:13-51
+56            android:exported="false" />
+56-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:47:13-37
+57        <activity
+57-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:48:9-50:40
+58            android:name="com.android.foodorderapp.RestaurantMenuActivity"
+58-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:49:13-51
+59            android:exported="false" />
+59-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:50:13-37
+60        <activity
+60-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:51:9-58:20
+61            android:name="com.android.foodorderapp.SplashActivity"
+61-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:52:13-43
+62            android:exported="true" >
+62-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:53:13-36
+63            <intent-filter>
+63-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:54:13-57:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:55:17-69
+64-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:55:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:56:17-77
+66-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:56:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:59:9-61:40
+70            android:name="com.android.foodorderapp.MainActivity"
+70-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:60:13-41
+71            android:exported="false" />
+71-->D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:61:13-37
+72    </application>
+73
+74</manifest>

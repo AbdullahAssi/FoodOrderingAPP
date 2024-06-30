@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Abdullah\.gradle\caches\transforms-3\d37bb779b043772b6118cba293ad7a1f\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Abdullah\.gradle\caches\transforms-3\2dee9ff4c00f552f8f40410a7d1850a5\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Abdullah\.gradle\caches\transforms-3\c8e1d359462525af914532426b3b78e0\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -36,20 +36,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Abdullah\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Abdullah\.gradle\caches\transforms-3\62b972ccdb2e5dd3aa255be8247df3ee\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Abdullah\.gradle\caches\transforms-3\c557cc45c787b6534df4cdcfeaecb090\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Abdullah\.gradle\caches\transforms-3\08e521ca17292aa22f066c5220fa6bad\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -58,7 +58,7 @@ ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifes
 	android:name
 		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:7:5-53:19
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:7:5-62:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Abdullah\.gradle\caches\transforms-3\d37bb779b043772b6118cba293ad7a1f\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Abdullah\.gradle\caches\transforms-3\d37bb779b043772b6118cba293ad7a1f\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Abdullah\.gradle\caches\transforms-3\2dee9ff4c00f552f8f40410a7d1850a5\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -90,7 +90,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ab
 activity#com.android.foodorderapp.AccountActivity
 ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:exported
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:16:13-36
 	android:name
 		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:15:13-44
 meta-data#android.app.lib_name
@@ -118,35 +118,45 @@ ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifes
 	android:name
 		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:36:13-42
 activity#com.android.foodorderapp.OrderSucceessActivity
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:42:9-59
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:42:19-56
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:43:13-50
 activity#com.android.foodorderapp.PlaceYourOrderActivity
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:43:9-60
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:43:19-57
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:46:13-51
 activity#com.android.foodorderapp.RestaurantMenuActivity
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:44:9-60
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:44:19-57
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:49:13-51
 activity#com.android.foodorderapp.SplashActivity
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:45:9-51:20
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:53:13-36
 	android:name
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:45:19-49
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:52:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:46:13-50:29
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:54:13-57:29
 action#android.intent.action.MAIN
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:47:17-69
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:55:17-69
 	android:name
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:47:25-66
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:55:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:49:17-77
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:56:17-77
 	android:name
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:49:27-74
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:56:27-74
 activity#com.android.foodorderapp.MainActivity
-ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:52:9-50
+ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:52:19-47
+		ADDED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml:60:13-41
 uses-sdk
 INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\FoodApp-main\FoodApp-main\FoodOrderApp\app\src\main\AndroidManifest.xml

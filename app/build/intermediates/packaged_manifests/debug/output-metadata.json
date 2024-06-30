@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.android.foodorderapp",
+  "applicationId": "com.android.WhiskerBites",
   "variantName": "debug",
   "elements": [
     {
